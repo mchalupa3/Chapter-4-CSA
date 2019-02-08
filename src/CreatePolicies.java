@@ -1,9 +1,9 @@
 public class CreatePolicies {
     public static void main(String[] args){
-        CarInsurancePolicy first = new CarInsurancePolicy(123);
-        CarInsurancePolicy second = new CarInsurancePolicy(456);
-        CarInsurancePolicy thrid = new CarInsurancePolicy(789, 12, "Newcastle");
-        //CarInsurancePolicy fourth = new CarInsurancePolicy();
+        CarInsurancePolicy2 first = new CarInsurancePolicy2(123);
+        CarInsurancePolicy2 second = new CarInsurancePolicy2(456);
+        CarInsurancePolicy2 thrid = new CarInsurancePolicy2(789, 12, "Newcastle");
+        //CarInsurancePolicy2 fourth = new CarInsurancePolicy2();
 
         first.display();
         second.display();

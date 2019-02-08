@@ -1,23 +1,22 @@
-public class CarInsurancePolicy {
+public class CarInsurancePolicy2 {
     private int policyNumebr;
     private int numPayments;
     private String residentCity;
 
-    public CarInsurancePolicy(int num, int payments, String city){
+    public CarInsurancePolicy2(int num, int payments, String city){
         policyNumebr = num;
         numPayments = payments;
         residentCity = city;
     }
-    public CarInsurancePolicy(int num, int payments){
-        policyNumebr = num;
-        numPayments = payments;
-        residentCity = "Mayfield";
+    public CarInsurancePolicy2(int num, int payments){
+        this(num, payments, "Mayfield");
+
     }
 
-    public CarInsurancePolicy(int num){
-        policyNumebr = num;
-        numPayments = 2;
-        residentCity = "Mayfield";
+
+    public CarInsurancePolicy2(int num){
+        this(num, 2, "Mayfield");
+
     }
 
     public void display(){
